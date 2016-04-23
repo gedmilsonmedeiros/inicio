@@ -1,3 +1,6 @@
 <?php
-$hellow = 'hellow word douws master';
-echo $hellow;
+function helloWorldDev($nome){
+  echo 'Eu sou o'.$nome.' - Hello Word';  
+}
+
+helloWorldDev('Gedmilson Medeiros');
